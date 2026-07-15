@@ -28,6 +28,22 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // 游戏主题图标（My Wood Farm）
+  Ticket: LucideIcons.Ticket,
+  Axe: LucideIcons.Axe,
+  Coins: LucideIcons.Coins,
+  TreePine: LucideIcons.TreePine,
+  ArrowUpCircle: LucideIcons.ArrowUpCircle,
+  Expand: LucideIcons.Expand,
+  Moon: LucideIcons.Moon,
+  Gift: LucideIcons.Gift,
+  RefreshCw: LucideIcons.RefreshCw,
+  Crown: LucideIcons.Crown,
+  Sprout: LucideIcons.Sprout,
+  Trees: LucideIcons.Trees,
+  Layers: LucideIcons.Layers,
+  Calculator: LucideIcons.Calculator,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
