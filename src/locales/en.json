@@ -10,14 +10,7 @@
       "twitterDescription": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
