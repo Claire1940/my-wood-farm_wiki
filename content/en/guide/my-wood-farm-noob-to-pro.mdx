@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, TrendingUp, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "My Wood Farm: Progression Guide & Farming Strategy (2026)",
+  description: "Master My Wood Farm with our expert progression guide. Learn the best tree farming routes, axe upgrade paths, and how to maximize your passive income.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B5A32/fff?text=My+Wood+Farm+Guide",
+  date: "2026-07-16",
+  author: "my wood farm Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **My Wood Farm** requires a balanced approach to active chopping and passive offline production for optimal growth.
+- **Prioritize axe upgrades** over plot expansions in the early game to ensure your cash flow increases steadily.
+- **Regular selling** is essential to reinvest cash into stronger production tools and expand your farm footprint.
+- **Offline earnings** accumulate while you are away, making it vital to place your most efficient axes before logging off.
+</Callout>
+
+<Section icon={Map} title="Getting Started with My Wood Farm">
+
+The core gameplay loop of My Wood Farm revolves around a cycle of harvesting resources, converting them into liquid capital, and reinvesting that capital into infrastructure. Success depends on understanding when to focus on active labor versus passive optimization.
+
+**Video Highlights:**
+- Demonstrating the most efficient early-game chopping routes.
+- Showcasing rare axe abilities and their impact on tree durability.
+- Explaining the transition from basic trees to high-value stumps.
+
+<YouTubeEmbed videoId="kJZZlWGXFMY" title="My Wood Farm Gameplay Overview" />
+
+To begin, focus on your starter axe. Do not be tempted to save for expensive upgrades immediately. Small, incremental improvements to your chopping speed provide a higher return on investment during your first hour of play.
+
+| Stage | Focus | Primary Goal |
+| :--- | :--- | :--- |
+| Early | Regular Trees | Establish consistent cash flow |
+| Mid | Axe Upgrades | Increase wood-per-second output |
+| Late | Plot Expansion | Scale production for giant trees |
+
+<Callout type="tip" title="Efficiency Note">
+Always keep your selling station accessible. If your path to the market is cluttered with too many axes, you will lose valuable seconds during every trip.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering the Progression Loop">
+
+Progression in My Wood Farm is not just about buying the biggest axe; it is about scaling your farm’s capacity. Follow these steps to ensure you never hit a "progression wall" where your income stagnates.
+
+<Steps>
+  <Step num="1" title="Optimize Initial Chopping">
+    Stick to regular trees initially to master the movement and selling cadence before tackling high-durability targets.
+  </Step>
+  <Step num="2" title="Invest in Production Speed">
+    Before buying new land, ensure your current axes are the highest tier you can afford. Speed is the most important stat.
+  </Step>
+  <Step num="3" title="Strategic Expansion">
+    Expand your plot only when you have excess axes that cannot be placed efficiently in your current space.
+  </Step>
+  <Step num="4" title="Targeting Heavy Durability">
+    Once you reach the late game, shift your best axes to stumps and giant trees to maximize your cash-per-chop.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Spending Caution">
+Avoid spending all your cash at once on plot expansions. Always keep a reserve to purchase the next tier of axe as soon as it becomes available.
+</Callout>
+
+</Section>
+
+<Section icon={TrendingUp} title="Axe Tier List and Comparisons">
+
+Choosing the right tool is the difference between a slow farm and an automated powerhouse. Our tier system evaluates axes based on their wood-yield efficiency and cost-to-benefit ratio.
+
+<CardGrid cols={3}>
+  <Card title="Starter Tier">
+    - **Wooden Axe**
+    - High availability
+    - Best for early tutorials
+  </Card>
+  <Card title="Mid-Game Rare">
+    - **Rare Axes**
+    - Balanced durability
+    - Good for mid-tier stumps
+  </Card>
+  <Card title="Endgame Magic">
+    - **Magical Axes**
+    - Highest efficiency
+    - Essential for giant trees
+  </Card>
+</CardGrid>
+
+| Axe Category | Durability Damage | Best Usage |
+| :--- | :--- | :--- |
+| Wooden | Low | Basic trees only |
+| Rare | Moderate | Transition to stumps |
+| Legendary | High | High-value farming |
+| Magical | Extreme | Endgame production |
+
+</Section>
+
+<Section icon={Package} title="Offline Farming Strategies">
+
+One of the most powerful mechanics in My Wood Farm is the ability for your axes to continue working while you are offline. Maximizing this requires a specific setup before you exit the game.
+
+<Checklist
+  id="offline-prep"
+  title="Pre-Logout Checklist:"
+  items={[
+    "Verify all axes are placed correctly near trees",
+    "Ensure your inventory is empty to prevent capacity issues",
+    "Upgrade your most active axe to the highest possible tier",
+    "Record your current cash to track passive gains accurately"
+  ]}
+/>
+
+<Callout type="success" title="Passive Income Tip">
+If you are planning to be away for a long period, prioritize placing axes around the highest-durability trees you can access. They will yield more total wood over time compared to frequently respawning smaller trees.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to earn cash quickly in My Wood Farm?",
+    answer: "The best strategy is to balance active chopping with constant axe upgrades. Never let your wood sit unsold for too long, as cash is only useful when reinvested."
+  },
+  {
+    question: "Should I focus on trees or stumps?",
+    answer: "Early on, focus on trees for speed. Once you acquire rare or legendary axes, shift your focus to stumps and giant trees for significantly higher cash returns."
+  },
+  {
+    question: "How do I know when to expand my plot?",
+    answer: "Expand only when your current plot is fully occupied by effective axes. If you have empty land, you are not utilizing your space efficiently."
+  }
+]} />
+
+</Section>

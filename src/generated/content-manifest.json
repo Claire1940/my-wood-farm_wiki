@@ -1,1 +1,482 @@
-{}
+{
+  "en": {
+    "axes": [
+      {
+        "slug": "my-wood-farm-axe-prices",
+        "file": "my-wood-farm-axe-prices"
+      },
+      {
+        "slug": "my-wood-farm-axe-stats",
+        "file": "my-wood-farm-axe-stats"
+      },
+      {
+        "slug": "my-wood-farm-axe-tier-list",
+        "file": "my-wood-farm-axe-tier-list"
+      },
+      {
+        "slug": "my-wood-farm-axe-upgrades",
+        "file": "my-wood-farm-axe-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-fastest-axe",
+        "file": "my-wood-farm-fastest-axe"
+      },
+      {
+        "slug": "my-wood-farm-how-to-get-new-axes",
+        "file": "my-wood-farm-how-to-get-new-axes"
+      },
+      {
+        "slug": "my-wood-farm-rarest-axe",
+        "file": "my-wood-farm-rarest-axe"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "my-wood-farm-codes",
+        "file": "my-wood-farm-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "my-wood-farm-beginner-guide",
+        "file": "my-wood-farm-beginner-guide"
+      },
+      {
+        "slug": "my-wood-farm-controls",
+        "file": "my-wood-farm-controls"
+      },
+      {
+        "slug": "my-wood-farm-guide",
+        "file": "my-wood-farm-guide"
+      },
+      {
+        "slug": "my-wood-farm-how-to-play",
+        "file": "my-wood-farm-how-to-play"
+      },
+      {
+        "slug": "my-wood-farm-noob-to-pro",
+        "file": "my-wood-farm-noob-to-pro"
+      },
+      {
+        "slug": "my-wood-farm-progression-guide",
+        "file": "my-wood-farm-progression-guide"
+      },
+      {
+        "slug": "my-wood-farm-tips-and-tricks",
+        "file": "my-wood-farm-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "my-wood-farm-best-wood-to-sell",
+        "file": "my-wood-farm-best-wood-to-sell"
+      },
+      {
+        "slug": "my-wood-farm-how-to-make-money-fast",
+        "file": "my-wood-farm-how-to-make-money-fast"
+      },
+      {
+        "slug": "my-wood-farm-money-guide",
+        "file": "my-wood-farm-money-guide"
+      },
+      {
+        "slug": "my-wood-farm-selling-prices",
+        "file": "my-wood-farm-selling-prices"
+      },
+      {
+        "slug": "my-wood-farm-wood-values",
+        "file": "my-wood-farm-wood-values"
+      }
+    ],
+    "trees": [
+      {
+        "slug": "my-wood-farm-giant-tree",
+        "file": "my-wood-farm-giant-tree"
+      },
+      {
+        "slug": "my-wood-farm-rare-trees",
+        "file": "my-wood-farm-rare-trees"
+      },
+      {
+        "slug": "my-wood-farm-tree-durability",
+        "file": "my-wood-farm-tree-durability"
+      },
+      {
+        "slug": "my-wood-farm-tree-locations",
+        "file": "my-wood-farm-tree-locations"
+      },
+      {
+        "slug": "my-wood-farm-tree-types",
+        "file": "my-wood-farm-tree-types"
+      },
+      {
+        "slug": "my-wood-farm-wood-yields",
+        "file": "my-wood-farm-wood-yields"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "my-wood-farm-latest-update",
+        "file": "my-wood-farm-latest-update"
+      },
+      {
+        "slug": "my-wood-farm-new-axes",
+        "file": "my-wood-farm-new-axes"
+      },
+      {
+        "slug": "my-wood-farm-new-trees",
+        "file": "my-wood-farm-new-trees"
+      },
+      {
+        "slug": "my-wood-farm-update-log",
+        "file": "my-wood-farm-update-log"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "my-wood-farm-best-farm-layout",
+        "file": "my-wood-farm-best-farm-layout"
+      },
+      {
+        "slug": "my-wood-farm-best-upgrades",
+        "file": "my-wood-farm-best-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-expansion-costs",
+        "file": "my-wood-farm-expansion-costs"
+      },
+      {
+        "slug": "my-wood-farm-plot-expansion",
+        "file": "my-wood-farm-plot-expansion"
+      },
+      {
+        "slug": "my-wood-farm-production-upgrades",
+        "file": "my-wood-farm-production-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-upgrade-order",
+        "file": "my-wood-farm-upgrade-order"
+      }
+    ]
+  },
+  "es": {
+    "axes": [
+      {
+        "slug": "my-wood-farm-axe-prices",
+        "file": "my-wood-farm-axe-prices"
+      },
+      {
+        "slug": "my-wood-farm-axe-stats",
+        "file": "my-wood-farm-axe-stats"
+      },
+      {
+        "slug": "my-wood-farm-axe-tier-list",
+        "file": "my-wood-farm-axe-tier-list"
+      },
+      {
+        "slug": "my-wood-farm-axe-upgrades",
+        "file": "my-wood-farm-axe-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-fastest-axe",
+        "file": "my-wood-farm-fastest-axe"
+      },
+      {
+        "slug": "my-wood-farm-how-to-get-new-axes",
+        "file": "my-wood-farm-how-to-get-new-axes"
+      },
+      {
+        "slug": "my-wood-farm-rarest-axe",
+        "file": "my-wood-farm-rarest-axe"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "my-wood-farm-codes",
+        "file": "my-wood-farm-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "my-wood-farm-beginner-guide",
+        "file": "my-wood-farm-beginner-guide"
+      },
+      {
+        "slug": "my-wood-farm-controls",
+        "file": "my-wood-farm-controls"
+      },
+      {
+        "slug": "my-wood-farm-guide",
+        "file": "my-wood-farm-guide"
+      },
+      {
+        "slug": "my-wood-farm-how-to-play",
+        "file": "my-wood-farm-how-to-play"
+      },
+      {
+        "slug": "my-wood-farm-noob-to-pro",
+        "file": "my-wood-farm-noob-to-pro"
+      },
+      {
+        "slug": "my-wood-farm-progression-guide",
+        "file": "my-wood-farm-progression-guide"
+      },
+      {
+        "slug": "my-wood-farm-tips-and-tricks",
+        "file": "my-wood-farm-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "my-wood-farm-best-wood-to-sell",
+        "file": "my-wood-farm-best-wood-to-sell"
+      },
+      {
+        "slug": "my-wood-farm-how-to-make-money-fast",
+        "file": "my-wood-farm-how-to-make-money-fast"
+      },
+      {
+        "slug": "my-wood-farm-money-guide",
+        "file": "my-wood-farm-money-guide"
+      },
+      {
+        "slug": "my-wood-farm-selling-prices",
+        "file": "my-wood-farm-selling-prices"
+      },
+      {
+        "slug": "my-wood-farm-wood-values",
+        "file": "my-wood-farm-wood-values"
+      }
+    ],
+    "trees": [
+      {
+        "slug": "my-wood-farm-giant-tree",
+        "file": "my-wood-farm-giant-tree"
+      },
+      {
+        "slug": "my-wood-farm-rare-trees",
+        "file": "my-wood-farm-rare-trees"
+      },
+      {
+        "slug": "my-wood-farm-tree-durability",
+        "file": "my-wood-farm-tree-durability"
+      },
+      {
+        "slug": "my-wood-farm-tree-locations",
+        "file": "my-wood-farm-tree-locations"
+      },
+      {
+        "slug": "my-wood-farm-tree-types",
+        "file": "my-wood-farm-tree-types"
+      },
+      {
+        "slug": "my-wood-farm-wood-yields",
+        "file": "my-wood-farm-wood-yields"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "my-wood-farm-latest-update",
+        "file": "my-wood-farm-latest-update"
+      },
+      {
+        "slug": "my-wood-farm-new-axes",
+        "file": "my-wood-farm-new-axes"
+      },
+      {
+        "slug": "my-wood-farm-new-trees",
+        "file": "my-wood-farm-new-trees"
+      },
+      {
+        "slug": "my-wood-farm-update-log",
+        "file": "my-wood-farm-update-log"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "my-wood-farm-best-farm-layout",
+        "file": "my-wood-farm-best-farm-layout"
+      },
+      {
+        "slug": "my-wood-farm-best-upgrades",
+        "file": "my-wood-farm-best-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-expansion-costs",
+        "file": "my-wood-farm-expansion-costs"
+      },
+      {
+        "slug": "my-wood-farm-plot-expansion",
+        "file": "my-wood-farm-plot-expansion"
+      },
+      {
+        "slug": "my-wood-farm-production-upgrades",
+        "file": "my-wood-farm-production-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-upgrade-order",
+        "file": "my-wood-farm-upgrade-order"
+      }
+    ]
+  },
+  "pt": {
+    "axes": [
+      {
+        "slug": "my-wood-farm-axe-prices",
+        "file": "my-wood-farm-axe-prices"
+      },
+      {
+        "slug": "my-wood-farm-axe-stats",
+        "file": "my-wood-farm-axe-stats"
+      },
+      {
+        "slug": "my-wood-farm-axe-tier-list",
+        "file": "my-wood-farm-axe-tier-list"
+      },
+      {
+        "slug": "my-wood-farm-axe-upgrades",
+        "file": "my-wood-farm-axe-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-fastest-axe",
+        "file": "my-wood-farm-fastest-axe"
+      },
+      {
+        "slug": "my-wood-farm-how-to-get-new-axes",
+        "file": "my-wood-farm-how-to-get-new-axes"
+      },
+      {
+        "slug": "my-wood-farm-rarest-axe",
+        "file": "my-wood-farm-rarest-axe"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "my-wood-farm-codes",
+        "file": "my-wood-farm-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "my-wood-farm-beginner-guide",
+        "file": "my-wood-farm-beginner-guide"
+      },
+      {
+        "slug": "my-wood-farm-controls",
+        "file": "my-wood-farm-controls"
+      },
+      {
+        "slug": "my-wood-farm-guide",
+        "file": "my-wood-farm-guide"
+      },
+      {
+        "slug": "my-wood-farm-how-to-play",
+        "file": "my-wood-farm-how-to-play"
+      },
+      {
+        "slug": "my-wood-farm-noob-to-pro",
+        "file": "my-wood-farm-noob-to-pro"
+      },
+      {
+        "slug": "my-wood-farm-progression-guide",
+        "file": "my-wood-farm-progression-guide"
+      },
+      {
+        "slug": "my-wood-farm-tips-and-tricks",
+        "file": "my-wood-farm-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "my-wood-farm-best-wood-to-sell",
+        "file": "my-wood-farm-best-wood-to-sell"
+      },
+      {
+        "slug": "my-wood-farm-how-to-make-money-fast",
+        "file": "my-wood-farm-how-to-make-money-fast"
+      },
+      {
+        "slug": "my-wood-farm-money-guide",
+        "file": "my-wood-farm-money-guide"
+      },
+      {
+        "slug": "my-wood-farm-selling-prices",
+        "file": "my-wood-farm-selling-prices"
+      },
+      {
+        "slug": "my-wood-farm-wood-values",
+        "file": "my-wood-farm-wood-values"
+      }
+    ],
+    "trees": [
+      {
+        "slug": "my-wood-farm-giant-tree",
+        "file": "my-wood-farm-giant-tree"
+      },
+      {
+        "slug": "my-wood-farm-rare-trees",
+        "file": "my-wood-farm-rare-trees"
+      },
+      {
+        "slug": "my-wood-farm-tree-durability",
+        "file": "my-wood-farm-tree-durability"
+      },
+      {
+        "slug": "my-wood-farm-tree-locations",
+        "file": "my-wood-farm-tree-locations"
+      },
+      {
+        "slug": "my-wood-farm-tree-types",
+        "file": "my-wood-farm-tree-types"
+      },
+      {
+        "slug": "my-wood-farm-wood-yields",
+        "file": "my-wood-farm-wood-yields"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "my-wood-farm-latest-update",
+        "file": "my-wood-farm-latest-update"
+      },
+      {
+        "slug": "my-wood-farm-new-axes",
+        "file": "my-wood-farm-new-axes"
+      },
+      {
+        "slug": "my-wood-farm-new-trees",
+        "file": "my-wood-farm-new-trees"
+      },
+      {
+        "slug": "my-wood-farm-update-log",
+        "file": "my-wood-farm-update-log"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "my-wood-farm-best-farm-layout",
+        "file": "my-wood-farm-best-farm-layout"
+      },
+      {
+        "slug": "my-wood-farm-best-upgrades",
+        "file": "my-wood-farm-best-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-expansion-costs",
+        "file": "my-wood-farm-expansion-costs"
+      },
+      {
+        "slug": "my-wood-farm-plot-expansion",
+        "file": "my-wood-farm-plot-expansion"
+      },
+      {
+        "slug": "my-wood-farm-production-upgrades",
+        "file": "my-wood-farm-production-upgrades"
+      },
+      {
+        "slug": "my-wood-farm-upgrade-order",
+        "file": "my-wood-farm-upgrade-order"
+      }
+    ]
+  }
+}

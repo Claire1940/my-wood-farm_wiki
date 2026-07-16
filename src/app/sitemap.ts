@@ -9,22 +9,24 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.my-wood-farm.w
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'items': 0.8,
-	'biomes': 0.8,
-	'building': 0.7,
-	'support': 0.6,
+	'codes': 0.9,
+	'guide': 0.9,
+	'updates': 0.9,
+	'axes': 0.8,
+	'trees': 0.8,
+	'money': 0.8,
+	'upgrades': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'items': 'weekly',
-	'biomes': 'weekly',
-	'building': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'updates': 'daily',
+	'guide': 'weekly',
+	'axes': 'weekly',
+	'trees': 'weekly',
+	'money': 'weekly',
+	'upgrades': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

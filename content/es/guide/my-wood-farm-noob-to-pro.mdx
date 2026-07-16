@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, TrendingUp, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mi granja de madera: Guía de progresión y estrategia de recolección (2026)",
+  description: "Domina Mi granja de madera con nuestra guía de progresión experta. Aprende las mejores rutas de recolección de árboles, rutas de mejora de hachas y cómo maximizar tus ingresos pasivos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B5A32/fff?text=My+Wood+Farm+Guide",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Mi granja de madera"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mi granja de madera** requiere un enfoque equilibrado entre la tala activa y la producción pasiva sin conexión para un crecimiento óptimo.
+- **Prioriza las mejoras de hachas** sobre las expansiones de parcelas en el juego temprano para asegurar que tu flujo de caja aumente de forma constante.
+- **Vender con regularidad** es esencial para reinvertir dinero en herramientas de producción más fuertes y expandir el terreno de tu granja.
+- **Las ganancias sin conexión** se acumulan mientras no estás, por lo que es vital colocar tus hachas más eficientes antes de desconectarte.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos en Mi granja de madera">
+
+El ciclo de juego principal de Mi granja de madera gira en torno a la recolección de recursos, su conversión en capital líquido y la reinversión de ese capital en infraestructura. El éxito depende de comprender cuándo enfocarse en el trabajo activo frente a la optimización pasiva.
+
+**Puntos destacados del video:**
+- Demostración de las rutas de tala más eficientes en el juego temprano.
+- Muestra de las habilidades de hachas raras y su impacto en la durabilidad de los árboles.
+- Explicación de la transición de árboles básicos a tocones de gran valor.
+
+<YouTubeEmbed videoId="kJZZlWGXFMY" title="Resumen del juego de Mi granja de madera" />
+
+Para comenzar, enfócate en tu hacha inicial. No te sientas tentado a ahorrar para mejoras costosas de inmediato. Las pequeñas y progresivas mejoras en tu velocidad de tala ofrecen un mayor retorno de inversión durante tu primera hora de juego.
+
+| Etapa | Enfoque | Objetivo principal |
+| :--- | :--- | :--- |
+| Temprana | Árboles comunes | Establecer un flujo de caja constante |
+| Media | Mejoras de hachas | Aumentar la producción de madera por segundo |
+| Tardía | Expansión de parcelas | Escalar la producción para árboles gigantes |
+
+<Callout type="tip" title="Nota de eficiencia">
+Mantén siempre accesible tu estación de venta. Si tu camino al mercado está obstruido con demasiadas hachas, perderás valiosos segundos en cada viaje.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando el ciclo de progresión">
+
+La progresión en Mi granja de madera no consiste solo en comprar el hacha más grande; se trata de escalar la capacidad de tu granja. Sigue estos pasos para asegurarte de no chocar nunca contra un "muro de progresión" donde tus ingresos se estanquen.
+
+<Steps>
+  <Step num="1" title="Optimizar la tala inicial">
+    Limítate a los árboles comunes al principio para dominar el movimiento y el ritmo de venta antes de enfrentarte a objetivos de alta durabilidad.
+  </Step>
+  <Step num="2" title="Invertir en velocidad de producción">
+    Antes de comprar nuevas tierras, asegúrate de que tus hachas actuales sean del nivel más alto que puedas permitirte. La velocidad es la estadística más importante.
+  </Step>
+  <Step num="3" title="Expansión estratégica">
+    Expande tu parcela solo cuando tengas hachas sobrantes que no se puedan colocar de manera eficiente en tu espacio actual.
+  </Step>
+  <Step num="4" title="Apuntar a la alta durabilidad">
+    Una vez que llegues al juego tardío, traslada tus mejores hachas a los tocones y árboles gigantes para maximizar tus ganancias por tala.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Precaución al gastar">
+Evita gastar todo tu dinero a la vez en expansiones de parcelas. Mantén siempre una reserva para comprar el siguiente nivel de hacha tan pronto como esté disponible.
+</Callout>
+
+</Section>
+
+<Section icon={TrendingUp} title="Lista de niveles de hachas y comparaciones">
+
+Elegir la herramienta adecuada marca la diferencia entre una granja lenta y una central automatizada. Nuestro sistema de niveles evalúa las hachas en función de su eficiencia de rendimiento de madera y su relación costo-beneficio.
+
+<CardGrid cols={3}>
+  <Card title="Nivel inicial">
+    - **Hacha de madera**
+    - Alta disponibilidad
+    - Ideal para los tutoriales iniciales
+  </Card>
+  <Card title="Raras de juego medio">
+    - **Hachas raras**
+    - Durabilidad equilibrada
+    - Buenas para tocones de nivel medio
+  </Card>
+  <Card title="Mágicas de juego tardío">
+    - **Hachas mágicas**
+    - Máxima eficiencia
+    - Esenciales para árboles gigantes
+  </Card>
+</CardGrid>
+
+| Categoría de hacha | Daño de durabilidad | Mejor uso |
+| :--- | :--- | :--- |
+| Madera | Bajo | Solo árboles básicos |
+| Rara | Moderado | Transición a tocones |
+| Legendaria | Alto | Recolección de alto valor |
+| Mágica | Extremo | Producción de juego tardío |
+
+</Section>
+
+<Section icon={Package} title="Estrategias de recolección sin conexión">
+
+Una de las mecánicas más potentes de Mi granja de madera es la capacidad de que tus hachas sigan trabajando mientras estás sin conexión. Maximizar esto requiere una configuración específica antes de salir del juego.
+
+<Checklist
+  id="offline-prep"
+  title="Lista de verificación antes de salir:"
+  items={[
+    "Verifica que todas las hachas estén colocadas correctamente cerca de los árboles",
+    "Asegúrate de que tu inventario esté vacío para evitar problemas de capacidad",
+    "Mejora tu hacha más activa al nivel más alto posible",
+    "Registra tu dinero actual para realizar un seguimiento preciso de las ganancias pasivas"
+  ]}
+/>
+
+<Callout type="success" title="Consejo de ingresos pasivos">
+Si planeas estar ausente durante un período prolongado, prioriza colocar hachas alrededor de los árboles con mayor durabilidad a los que puedas acceder. Producirán más madera total a lo largo del tiempo en comparación con los árboles más pequeños que reaparecen con frecuencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de ganar dinero rápidamente en Mi granja de madera?",
+    answer: "La mejor estrategia es equilibrar la tala activa con mejoras constantes de hachas. Nunca dejes que tu madera se quede sin vender por demasiado tiempo, ya que el dinero solo es útil cuando se reinvierte."
+  },
+  {
+    question: "¿Debería enfocarme en los árboles o en los tocones?",
+    answer: "Al principio, enfócate en los árboles para ganar velocidad. Una vez que adquieras hachas raras o legendarias, cambia tu enfoque a los tocones y árboles gigantes para obtener retornos de dinero significativamente mayores."
+  },
+  {
+    question: "¿Cómo sé cuándo expandir mi parcela?",
+    answer: "Expande tu parcela solo cuando la actual esté completamente ocupada por hachas efectivas. Si tienes terreno vacío, no estás utilizando tu espacio de manera eficiente."
+  }
+]} />
+
+</Section>

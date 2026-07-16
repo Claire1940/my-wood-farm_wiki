@@ -10,7 +10,15 @@
       "twitterDescription": "My Wood Farm Wiki for Roblox with codes, best axes, upgrade paths, rebirth tips, tree farming, cash strategies, offline earnings, and update guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "axes": "Axes",
+    "trees": "Trees",
+    "money": "Money",
+    "upgrades": "Upgrades",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -479,20 +487,40 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "codes": {
+      "title": "My Wood Farm Codes",
+      "description": "Track active My Wood Farm codes, expired rewards and any future code redemption system from the Did I Axe developers.",
+      "metaTitle": "My Wood Farm Codes - Active & Expired Code List",
+      "metaDescription": "Track My Wood Farm codes, expired rewards and any future code redemption system. See the current code status and where new My Wood Farm rewards will be announced.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Guides to My Wood Farm codes covering the current reward status, how codes are redeemed when added, and where the Did I Axe developers announce new rewards for the idle woodcutting simulator.",
+      "why": "Why check codes?",
+      "whySteps": {
+        "step1Title": "See Current Codes",
+        "step1Description": "Check whether any active My Wood Farm codes are available right now",
+        "step2Title": "Track Expiration",
+        "step2Description": "Know which previously released codes have already expired",
+        "step3Title": "Never Miss Rewards",
+        "step3Description": "Find where new My Wood Farm codes will be announced"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Code Guides"
+    },
+    "guide": {
       "title": "My Wood Farm Guides",
-      "description": "Complete My Wood Farm gameplay guides from beginner basics to advanced axes, upgrades and money farming strategies.",
+      "description": "Complete My Wood Farm gameplay guides from beginner basics and controls to advanced progression, axe paths and money farming strategies.",
       "metaTitle": "My Wood Farm Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete My Wood Farm guides covering beginner tips, best axes, upgrade paths, money farming and offline earnings for mastering the idle woodcutting simulator.",
+      "metaDescription": "Complete My Wood Farm guides covering beginner tips, controls, progression paths, best axes, money farming and offline earnings for mastering the idle woodcutting simulator.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering My Wood Farm gameplay mechanics, chopping and selling loops, axe progression and money farming. Learn everything from first steps to advanced strategies.",
+      "whatIsDescription": "Comprehensive guides covering My Wood Farm gameplay mechanics, chopping and selling loops, axe progression, controls and money farming. Learn everything from first steps to advanced strategies.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
         "step1Description": "Understand the chop, sell and upgrade loop and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven axe and plot upgrade paths to grow your wood farm quickly",
+        "step2Description": "Follow proven axe and plot upgrade paths to grow your My Wood Farm quickly",
         "step3Title": "Master Strategies",
         "step3Description": "Develop advanced tactics for money farming and offline earnings"
       },
@@ -501,100 +529,100 @@
     },
     "axes": {
       "title": "My Wood Farm Axes",
-      "description": "Detailed My Wood Farm axe guides covering every axe category, rarity, price and best farming stage.",
+      "description": "Detailed My Wood Farm axe guides covering every axe category, rarity, price, stats and the best farming stage for each upgrade.",
       "metaTitle": "My Wood Farm Axes - Best Axe & Tier List Guide",
-      "metaDescription": "Complete My Wood Farm axe database including wooden, rare, legendary and magical axes. Learn the best axe for each progression stage and build the strongest wood farm.",
+      "metaDescription": "Complete My Wood Farm axe database including wooden, rare, legendary and magical axes. Learn axe stats, prices, the fastest axe and the best axe for each progression stage.",
       "categoryLabel": "AXES & EQUIPMENT",
       "whatIs": "What are Axes?",
-      "whatIsDescription": "Comprehensive guides for every My Wood Farm axe. Learn axe rarity, production power, price and the best stage to upgrade so your wood farm keeps growing.",
+      "whatIsDescription": "Comprehensive guides for every My Wood Farm axe. Learn axe rarity, production power, stats, price and the best stage to upgrade so your wood farm keeps growing.",
       "why": "Why check axe guides?",
       "whySteps": {
         "step1Title": "Compare Axes",
-        "step1Description": "Discover the production power and price of every axe category",
+        "step1Description": "Discover the production power, stats and price of every My Wood Farm axe category",
         "step2Title": "Plan Upgrades",
-        "step2Description": "Choose the best axe for your current progression stage",
+        "step2Description": "Choose the best axe for your current My Wood Farm progression stage",
         "step3Title": "Improve Output",
-        "step3Description": "Upgrade axes to chop faster and earn more wood and cash"
+        "step3Description": "Upgrade to the fastest and rarest axes to chop faster and earn more wood"
       },
       "featured": "Featured & Essential",
       "all": "All Axes"
     },
+    "trees": {
+      "title": "My Wood Farm Trees",
+      "description": "Complete My Wood Farm tree database covering tree types, durability, wood yields, locations and the best targets for each axe stage.",
+      "metaTitle": "My Wood Farm Trees - Types, Yields & Best Farming Targets",
+      "metaDescription": "Complete My Wood Farm tree guides covering tree types, durability, wood yields, locations, rare trees and giant trees. Find the best targets and farming routes for each progression stage.",
+      "categoryLabel": "TREES & YIELDS",
+      "whatIs": "What are Trees?",
+      "whatIsDescription": "Guides to every My Wood Farm tree target including regular trees, rare trees and giant trees. Learn tree durability, wood yields, locations and which trees match your current axe power.",
+      "why": "Why study trees?",
+      "whySteps": {
+        "step1Title": "Know Tree Types",
+        "step1Description": "Compare regular, rare and giant tree targets and their wood yields",
+        "step2Title": "Match Your Axe",
+        "step2Description": "Pick tree targets that match your current My Wood Farm axe stage",
+        "step3Title": "Farm Efficiently",
+        "step3Description": "Use the best tree locations and routes to maximize wood and cash per run"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tree Guides"
+    },
+    "money": {
+      "title": "My Wood Farm Money",
+      "description": "Master My Wood Farm money farming with fast cash methods, best wood to sell, selling prices and wood value rankings for maximum income.",
+      "metaTitle": "My Wood Farm Money - Best Cash & Wood Selling Guide",
+      "metaDescription": "Explore My Wood Farm money farming methods, best wood to sell, selling prices and wood values. Turn wood into cash faster and grow your My Wood Farm income with proven strategies.",
+      "categoryLabel": "MONEY & CASH",
+      "whatIs": "What is Money Farming?",
+      "whatIsDescription": "Guides to My Wood Farm money farming covering active chopping, efficient selling, the best wood to sell, selling prices and wood values for short and long sessions.",
+      "why": "Why farm money?",
+      "whySteps": {
+        "step1Title": "Earn Cash Faster",
+        "step1Description": "Use the fastest My Wood Farm methods to turn wood into cash",
+        "step2Title": "Know Wood Values",
+        "step2Description": "Compare wood values and selling prices to sell the best wood first",
+        "step3Title": "Reinvest Smartly",
+        "step3Description": "Put earned cash back into axes and upgrades for compounding My Wood Farm income"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Money Guides"
+    },
     "upgrades": {
       "title": "My Wood Farm Upgrades",
-      "description": "Master the My Wood Farm upgrade order with axe, production and plot expansion priorities and payoff guidance.",
-      "metaTitle": "My Wood Farm Upgrades - Best Upgrade Order & Priorities",
-      "metaDescription": "Master My Wood Farm upgrades with the best axe, production and plot expansion order. Learn spending rules and payoff timing for the most efficient wood farm progression.",
+      "description": "Master the My Wood Farm upgrade order with axe, production, plot expansion and farm layout priorities plus payoff guidance.",
+      "metaTitle": "My Wood Farm Upgrades - Best Upgrade Order & Layouts",
+      "metaDescription": "Master My Wood Farm upgrades with the best axe, production and plot expansion order, farm layouts and expansion costs. Learn spending rules and payoff timing for efficient progression.",
       "categoryLabel": "UPGRADE ORDER",
       "whatIs": "What are Upgrades?",
-      "whatIsDescription": "Guides to the My Wood Farm upgrade system covering axe output, production density and plot expansion. Learn which upgrades to prioritize at each progression stage.",
+      "whatIsDescription": "Guides to the My Wood Farm upgrade system covering axe output, production density, plot expansion and farm layouts. Learn which upgrades to prioritize at each progression stage.",
       "why": "Why plan upgrades?",
       "whySteps": {
         "step1Title": "Prioritize Production",
-        "step1Description": "Focus cash on upgrades that raise wood output first",
+        "step1Description": "Focus cash on My Wood Farm upgrades that raise wood output first",
         "step2Title": "Manage Spending",
-        "step2Description": "Balance axe, production and plot purchases efficiently",
-        "step3Title": "Measure Payoff",
-        "step3Description": "Compare upgrade cost against the extra cash earned per minute"
+        "step2Description": "Balance axe, production and plot purchases against expansion costs",
+        "step3Title": "Build Smart Layouts",
+        "step3Description": "Use the best farm layout to pack more axes and boost overall production"
       },
       "featured": "Featured & Essential",
       "all": "All Upgrade Guides"
     },
-    "farming": {
-      "title": "My Wood Farm Money & Farming",
-      "description": "Explore My Wood Farm money farming methods, tree values and offline earnings strategies for faster cash.",
-      "metaTitle": "My Wood Farm Money Farming - Best Cash & Offline Earnings",
-      "metaDescription": "Explore My Wood Farm money farming methods, tree and wood values, and offline earnings strategies. Turn wood into cash faster and grow your wood farm income.",
-      "categoryLabel": "MONEY & FARMING",
-      "whatIs": "What is Money Farming?",
-      "whatIsDescription": "Guides to My Wood Farm money farming covering active chopping, efficient selling, tree and wood values, and offline axe production for short and long sessions.",
-      "why": "Why farm money?",
-      "whySteps": {
-        "step1Title": "Earn Cash Faster",
-        "step1Description": "Use the fastest methods to turn wood into cash",
-        "step2Title": "Know Tree Values",
-        "step2Description": "Compare tree, stump and giant tree targets and returns",
-        "step3Title": "Use Offline Earnings",
-        "step3Description": "Let axes keep farming wood between sessions"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Farming Guides"
-    },
-    "codes": {
-      "title": "My Wood Farm Codes",
-      "description": "Track active My Wood Farm codes, expired rewards and any future code redemption system from the developers.",
-      "metaTitle": "My Wood Farm Codes - Active & Expired Code List",
-      "metaDescription": "Track My Wood Farm codes, expired rewards and any future code redemption system. See the current code status and where new My Wood Farm rewards will be announced.",
-      "categoryLabel": "CODES & REWARDS",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Guides to My Wood Farm codes covering the current reward status, how codes are redeemed when added, and where the Did I Axe developers announce new rewards.",
-      "why": "Why check codes?",
-      "whySteps": {
-        "step1Title": "See Current Codes",
-        "step1Description": "Check whether any active codes are available right now",
-        "step2Title": "Track Expiration",
-        "step2Description": "Know which previously released codes have expired",
-        "step3Title": "Never Miss Rewards",
-        "step3Description": "Find where new My Wood Farm codes will be announced"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Code Guides"
-    },
     "updates": {
       "title": "My Wood Farm Updates",
-      "description": "Track My Wood Farm updates, balance changes, new axes, new trees and announcements from the official experience.",
+      "description": "Track My Wood Farm updates, balance changes, new axes, new trees and the latest update log from the official experience.",
       "metaTitle": "My Wood Farm Updates - Patch Notes & New Content",
-      "metaDescription": "Track My Wood Farm updates including balance changes, new axes, new trees, plot expansion changes and announcements from the official Roblox experience and Did I Axe community.",
+      "metaDescription": "Track My Wood Farm updates including balance changes, new axes, new trees, plot expansion changes and the latest update log from the official Roblox experience and Did I Axe community.",
       "categoryLabel": "UPDATES & NEWS",
       "whatIs": "What are Updates?",
-      "whatIsDescription": "Guides covering My Wood Farm version changes, new axes, new trees, production balance updates and announcements from the official Roblox experience and Did I Axe community.",
+      "whatIsDescription": "Guides covering My Wood Farm version changes, new axes, new trees, production balance updates and the latest update log from the official Roblox experience and Did I Axe community.",
       "why": "Why follow updates?",
       "whySteps": {
         "step1Title": "Stay Current",
-        "step1Description": "See the latest axes, trees and balance changes",
+        "step1Description": "See the latest My Wood Farm axes, trees and balance changes",
         "step2Title": "Adjust Strategy",
-        "step2Description": "Update your upgrade and money farming plans after changes",
+        "step2Description": "Update your upgrade and money farming plans after each change",
         "step3Title": "Catch Announcements",
-        "step3Description": "Follow official news for new My Wood Farm content"
+        "step3Description": "Follow official news for new My Wood Farm content and the update log"
       },
       "featured": "Featured & Essential",
       "all": "All Update Guides"

@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, DollarSign, Axe } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "My Wood Farm: Best Selling Prices & Money Farming Guide",
+  description: "Maximize your My Wood Farm profits with our expert guide on selling prices, efficient tree farming, and strategic upgrade paths for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B5A32/fff?text=Wood+Farming+Guide",
+  date: "2026-07-16",
+  author: "my wood farm Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **My Wood Farm** success depends on balancing active tree chopping with passive offline wood production.
+- **Selling prices** are determined by the type of wood and your current farm efficiency upgrades.
+- **Prioritize axe upgrades** early to increase your wood yield, which directly impacts your total cash flow.
+- **Offline earnings** continue while you are away, making it vital to optimize your setup before logging off.
+- **Strategic expansion** of your plot allows for more axes, leading to exponential growth in your income.
+</Callout>
+
+<Section icon={DollarSign} title="Understanding Selling Prices and Income">
+
+Efficient money farming in My Wood Farm requires a clear understanding of how your efforts translate into cash. While specific price values fluctuate based on game balancing updates, the core loop remains consistent: your income is a product of wood volume and production speed.
+
+**Video Highlights:**
+- Demonstrating the core loop of chopping, collecting, and selling.
+- Showcasing high-tier axes and their impact on production rates.
+- Tips for maintaining a productive farm layout.
+
+<YouTubeEmbed videoId="kJZZlWGXFMY" title="I Got the Rarest Axe to Chop Billions of Trees" />
+
+To maximize your revenue, focus on the relationship between tree durability and axe tier. Stronger axes allow you to clear higher-value targets like stumps and giant trees, which provide a significantly better return on investment than basic trees.
+
+<Callout type="tip">
+Always keep your wood storage clear. Selling regularly ensures you have the liquid cash required to purchase the next tier of equipment immediately.
+</Callout>
+
+| Target Type | Durability | Yield Potential | Profitability |
+| :--- | :--- | :--- | :--- |
+| Regular Tree | Low | Standard | Starter |
+| Tree Stump | High | Improved | Mid-Game |
+| Giant Tree | Very High | Massive | Late-Game |
+
+</Section>
+
+<Section icon={Axe} title="Axe Tier Progression Strategy">
+
+Your choice of axe is the most critical factor in your farming efficiency. Upgrading your axe is not just about chopping faster; it is about reaching the point where you can farm more durable, high-yield trees.
+
+<CardGrid cols={3}>
+  <Card title="Starter Tier">
+    - **Wooden Axe**
+    - Basic production
+    - Best for first session
+  </Card>
+  <Card title="Mid-Game Tier">
+    - **Rare Axes**
+    - Improved speed
+    - Efficient for stumps
+  </Card>
+  <Card title="Endgame Tier">
+    - **Magical Axes**
+    - Maximum output
+    - Essential for giant trees
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Upgrade Priority">
+Avoid spending your cash on aesthetic plot upgrades before you have secured a reliable, high-tier axe. Production capacity is your primary driver of wealth.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Optimal Money Farming Loop">
+
+Follow this step-by-step workflow to ensure your farm is always operating at peak efficiency. This cycle is designed to minimize downtime and maximize your cash-per-minute return.
+
+<Steps>
+  <Step num="1" title="Active Chopping">
+    Spend your initial sessions manually chopping regular trees to build a base cash reserve.
+  </Step>
+  <Step num="2" title="Reinvestment">
+    Immediately purchase the next available axe upgrade to boost your wood-per-second rate.
+  </Step>
+  <Step num="3" title="Expansion">
+    Once your current plot is full, expand to place additional axes, increasing your total farm output.
+  </Step>
+  <Step num="4" title="Offline Prep">
+    Before logging off, ensure all axes are placed and upgraded to maximize passive production.
+  </Step>
+</Steps>
+
+| Action | Impact on Income | Recommended Frequency |
+| :--- | :--- | :--- |
+| Sell Wood | Immediate Cash | Every 10-15 Minutes |
+| Upgrade Axe | Production Multiplier | As Funds Allow |
+| Expand Plot | Total Capacity | When Space is Full |
+
+</Section>
+
+<Section icon={Shield} title="Maximizing Offline Earnings">
+
+One of the unique features of My Wood Farm is the ability for your axes to continue working while you are offline. To leverage this, you must treat your farm as a passive investment vehicle.
+
+<Callout type="success" title="Offline Optimization">
+Check your wood production rate before logging out. If you notice slow progress, consider upgrading your weakest axe rather than saving for a single expensive item.
+</Callout>
+
+The formula for success is simple: `(Total Axes x Axe Efficiency) = Hourly Passive Gain`. By ensuring your most efficient axes are placed in the most accessible spots on your plot, you guarantee that your offline gains remain consistent.
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I check current My Wood Farm selling prices?",
+    answer: "Selling prices are calculated based on the wood type and current game multipliers. You can check your current yield by observing the cash increase after a sale."
+  },
+  {
+    question: "Is it better to save for one expensive axe or many cheap ones?",
+    answer: "Early on, focus on getting a solid mid-tier axe. Later, focus on high-tier magical axes as they provide the best return on investment for late-game tree targets."
+  },
+  {
+    question: "What is the best way to earn money in My Wood Farm?",
+    answer: "The best method is to maintain a high-production loop: chop manually to gain initial capital, reinvest in better axes, and expand your plot to support more production units."
+  }
+]} />
+
+</Section>

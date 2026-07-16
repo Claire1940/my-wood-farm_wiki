@@ -1,4 +1,13 @@
-import type { LucideIcon } from 'lucide-react'
+import {
+	BookOpen,
+	Ticket,
+	Axe,
+	TreePine,
+	Coins,
+	ArrowUpCircle,
+	Sparkles,
+	type LucideIcon,
+} from 'lucide-react'
 
 export interface NavigationItem {
 	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
@@ -7,13 +16,57 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置（Part3 多语言与导航清空：待后续 part 接入实际内容类型后填充）
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// 导航配置（My Wood Farm：7 个内容分类，community 已按规范删除）
+// 顺序：Codes → Guide → Axes → Trees → Money → Upgrades → Updates
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{
+		key: 'codes',
+		path: '/codes',
+		icon: Ticket,
+		isContentType: true,
+	},
+	{
+		key: 'guide',
+		path: '/guide',
+		icon: BookOpen,
+		isContentType: true,
+	},
+	{
+		key: 'axes',
+		path: '/axes',
+		icon: Axe,
+		isContentType: true,
+	},
+	{
+		key: 'trees',
+		path: '/trees',
+		icon: TreePine,
+		isContentType: true,
+	},
+	{
+		key: 'money',
+		path: '/money',
+		icon: Coins,
+		isContentType: true,
+	},
+	{
+		key: 'upgrades',
+		path: '/upgrades',
+		icon: ArrowUpCircle,
+		isContentType: true,
+	},
+	{
+		key: 'updates',
+		path: '/updates',
+		icon: Sparkles,
+		isContentType: true,
+	},
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
 	(item) => item.path.slice(1),
-) // 移除开头的 '/' -> []
+) // 移除开头的 '/'
 
 export type ContentType = (typeof CONTENT_TYPES)[number]
 

@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Expansão de Terreno em Minha Fazenda de Madeira: Custos, Layouts e Guia de Configuração",
+  description: "Domine a expansão de terreno em Minha Fazenda de Madeira com nosso guia. Aprenda custos de terra, a melhor ordem de progressão, layouts ideais de machados e truques para ganhar dinheiro.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8b5a32/fff?text=Plot+Expansion+Guide",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de Minha Fazenda de Madeira",
+  keywords: "expansão de terreno, My Wood Farm, guia de fazenda, machados, ganhos offline"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Expansão de Terreno**: Expanda sua terra em **my wood farm** para colocar mais machados e aumentar a produção passiva de madeira.
+- **Ciclo de Progressão**: Corte árvores, venda madeira, melhore seus machados e expanda seu terreno quando o espaço acabar.
+- **Ganhos Offline**: Seus machados posicionados continuam coletando madeira enquanto você está offline, tornando a eficiência do layout extremamente importante.
+- **Estratégia Ideal**: Maximize a densidade do seu terreno atual antes de gastar dinheiro em novas expansões de terra caras.
+</Callout>
+
+<Section icon={Map} title="Fundamentos da Expansão de Terreno em My Wood Farm">
+
+A expansão de terreno é uma mecânica fundamental em **my wood farm** que impacta diretamente sua taxa de produção de madeira e o fluxo de caixa geral. Enquanto a melhoria dos seus machados aumenta o poder de corte individual, a expansão do terreno permite que você coloque mais machados simultaneamente. Este sistema de progressão dupla é a chave para a transição do corte ativo no início do jogo para uma configuração de fazenda passiva altamente lucrativa.
+
+| Fase de Expansão | Foco Principal | Alvo Principal | Estratégia |
+|--- |--- |--- |--- |
+| **Início do Jogo** | Machado de Madeira Inicial | Árvores Comuns | Vendas ativas rápidas para financiar as primeiras melhorias |
+| **Meio do Jogo** | Machados Raros e Lendários | Tocos de Árvore | Otimização da densidade antes da compra de terra |
+| **Fim do Jogo** | Machados Mágicos | Árvores Gigantes | Expansão total do terreno com posicionamento máximo de machados |
+
+<Callout type="tip" title="Densidade Antes de Tamanho">
+Não tenha pressa em comprar novas terras se o seu terreno atual ainda tiver espaço vazio. É sempre mais econômico preencher seu terreno existente com machados melhorados antes de pagar por uma expansão de terra.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Expansão de Terreno Passo a Passo">
+
+Para construir uma fazenda eficiente sem desperdiçar dinheiro valioso, você deve seguir uma rota de desenvolvimento estruturada. Isso garante que você sempre tenha liquidez suficiente para comprar machados mais fortes assim que forem desbloqueados.
+
+<Steps>
+  <Step num="1" title="Estabeleça o Ciclo de Dinheiro">
+    Equipe seu Machado de Madeira inicial e corte as árvores comuns em seu terreno. Colete a madeira e venda-a imediatamente no ponto de venda para estabelecer sua renda base.
+  </Step>
+  <Step num="2" title="Melhore o Poder do Machado Ativo">
+    Gaste suas primeiras reservas de dinheiro na melhoria do seu machado principal. Um machado ativo mais forte permite que você limpe árvores mais rápido, acelerando sua geração de dinheiro.
+  </Step>
+  <Step num="3" title="Maximize a Densidade do Terreno Atual">
+    Compre machados adicionais e coloque-os em seu terreno inicial. Continue adicionando machados até que todos os espaços de alta eficiência disponíveis em sua terra inicial estejam ocupados.
+  </Step>
+  <Step num="4" title="Compre a Expansão de Terra">
+    Quando seu terreno inicial estiver completamente cheio e você não puder mais colocar machados de forma eficiente, gaste seu dinheiro acumulado para comprar sua primeira expansão de terreno.
+  </Step>
+  <Step num="5" title="Implemente Layouts Avançados">
+    Utilize a terra recém-aberta para configurar zonas de corte dedicadas para alvos mais difíceis, colocando machados de alto nível perto de tocos e árvores gigantes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Progressão">
+Ao melhorar seus machados antes de expandir seu terreno, você garante que os novos machados colocados na terra expandida sejam altamente produtivos desde o momento em que forem implantados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Layouts de Fazenda Ideais e Correspondência de Alvos">
+
+Diferentes alvos no jogo exigem diferentes níveis de poder de corte. Combinar a configuração correta do machado com o alvo certo em seu terreno expandido é crucial para manter uma alta taxa de produção.
+
+<CardGrid cols={3}>
+  <Card title="Configuração de Árvore Comum">
+    - **Durabilidade**: Baixa
+    - **Categoria de Machado**: Machados de Madeira ou Raros
+    - **Prioridade de Layout**: Coloque perto da rota de venda para ciclos rápidos de colheita ativa.
+  </Card>
+  <Card title="Configuração de Toco de Árvore">
+    - **Durabilidade**: Alta
+    - **Categoria de Machado**: Machados Raros ou Lendários
+    - **Prioridade de Layout**: Agrupe 2-3 machados melhorados em torno de um único toco para limpá-lo eficientemente.
+  </Card>
+  <Card title="Configuração de Árvore Gigante">
+    - **Durability**: Muito Alta
+    - **Categoria de Machado**: Machados Mágicos
+    - **Prioridade de Layout**: Cerque com o máximo de machados melhorados em terrenos externos totalmente expandidos.
+  </Card>
+</CardGrid>
+
+| Tipo de Alvo | Durabilidade | Rendimento de Madeira | Configuração Recomendada | Melhor Estágio de Progressão |
+|--- |--- |--- |--- |--- |
+| **Árvore Comum** | Baixa | Padrão | Machado de Madeira / Melhorias Iniciais | Início do Jogo |
+| **Toco de Árvore** | Alta | Valor Mais Alto | Machado Lendário / Melhorado Forte | Meio ao Fim do Jogo |
+| **Árvore Gigante** | Muito Alta | Alvo Grande | Múltiplos Machados Mágicos | Fim do Jogo |
+
+<Callout type="warning" title="Evite Gargalos">
+Certifique-se de que o layout da sua fazenda mantenha os caminhos de caminhada livres. Bloquear a rota entre suas zonas de corte ativas e o ponto de venda diminuirá sua conversão manual de dinheiro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizando Ganhos Offline com a Expansão de Terreno">
+
+Uma das características mais poderosas de **my wood farm** é que seus machados posicionados continuam a coletar madeira enquanto você está offline. A expansão de terreno multiplica diretamente seu potencial de renda passiva ao aumentar o número total de machados trabalhando para você durante sua ausência.
+
+| Passo Offline | Ação | Propósito |
+|--- |--- |--- |
+| **Antes de Sair** | Melhore os machados e preencha todos os espaços do terreno | Maximizar a taxa de produção passiva |
+| **Ao Retornar** | Reivindique a madeira offline e venda imediatamente | Converter recursos acumulados em dinheiro |
+| **Pós-Venda** | Reinvista em machados ou expansão de terra | Manter o ciclo de crescimento composto |
+
+<Callout type="info" title="Fórmula de Ganhos Offline">
+A madeira offline ganha é calculada como a diferença entre o seu total de madeira ao retornar e o seu total de madeira antes de sair. Para estimar o valor em dinheiro, multiplique a madeira offline ganha pelo seu retorno de venda atual por unidade de madeira.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Expansão de Terreno">
+
+Antes de gastar seu dinheiro suado em uma nova expansão de terra, passe por este checklist rápido para garantir que é o movimento financeiro correto.
+
+<Checklist
+  id="expansion-readiness"
+  title="Checklist de Prontidão para Expansão:"
+  items={[
+    "Todos os espaços do terreno atual estão ocupados por machados ativos.",
+    "Seu machado principal está melhorado para corresponder aos seus alvos atuais.",
+    "Você tem dinheiro excedente suficiente para comprar a terra e pelo menos um novo machado.",
+    "Seus caminhos atuais até o ponto de venda estão totalmente otimizados.",
+    "Você está pronto para transitar para alvos de maior durabilidade, como Tocos de Árvore."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Como a expansão de terreno em My Wood Farm me ajuda a ganhar mais dinheiro?",
+    answer: "Expandir seu terreno aumenta o espaço físico disponível em sua fazenda. Isso permite que você coloque mais machados, o que aumenta diretamente tanto sua velocidade de corte ativo quanto sua produção passiva de madeira offline."
+  },
+  {
+    question: "Devo comprar expansões de terra ou melhorar meus machados primeiro?",
+    answer: "Você deve sempre priorizar a melhoria dos seus machados primeiro. Machados melhorados produzem mais madeira por segundo. Compre expansões de terra apenas quando seu terreno atual estiver completamente cheio de machados altamente melhorados e você precisar de mais espaço para novos."
+  },
+  {
+    question: "Meus machados coletam madeira enquanto estou offline?",
+    answer: "Sim, seus machados posicionados continuam a coletar madeira enquanto você está offline. Para maximizar isso, certifique-se de preencher todos os espaços disponíveis em seu terreno expandido com seus melhores machados antes de sair do jogo."
+  },
+  {
+    question: "Qual é o melhor layout para limpar Árvores Gigantes?",
+    answer: "As Árvores Gigantes têm durabilidade muito alta. O melhor layout é expandir seu terreno ao redor da zona da Árvore Gigante e colocar múltiplos machados lendários ou mágicos de alto nível em proximidade para que possam cortar o alvo simultaneamente."
+  }
+]} />
+
+</Section>

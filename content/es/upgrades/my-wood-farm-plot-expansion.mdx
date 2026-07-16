@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de expansión de parcelas en Mi granja de madera: Costes, diseños y configuración",
+  description: "Domina la expansión de parcelas en Mi granja de madera con nuestra guía. Conoce los costes de terreno, el mejor orden de progresión, diseños óptimos de hachas y trucos para ganar dinero.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b5a32/fff?text=Plot+Expansion+Guide",
+  date: "2026-07-16",
+  author: "Equipo de la Wiki de Mi granja de madera"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Expansión de parcelas**: Expande tu terreno en **Mi granja de madera** para colocar más hachas y aumentar la producción pasiva de madera.
+- **Bucle de progresión**: Tala árboles, vende madera, mejora tus hachas y expande tu parcela cuando te quedes sin espacio.
+- **Ganancias sin conexión**: Las hachas colocadas siguen talando madera mientras estás desconectado, por lo que la eficiencia del diseño es muy importante.
+- **Estrategia óptima**: Maximiza la densidad de tu parcela actual antes de gastar dinero en costosas expansiones de terreno nuevo.
+</Callout>
+
+<Section icon={Map} title="Conceptos básicos de la expansión de parcelas en Mi granja de madera">
+
+La expansión de parcelas es una mecánica fundamental en **Mi granja de madera** que afecta directamente a tu tasa de producción de madera y al flujo de caja general. Mientras que mejorar tus hachas aumenta el poder de tala individual, expandir tu parcela te permite colocar más hachas simultáneamente. Este sistema de progresión dual es clave para pasar de la tala activa al principio del juego a una configuración de cultivo pasivo altamente rentable.
+
+| Fase de expansión | Enfoque principal | Objetivo principal | Estrategia |
+|--- |--- |--- |--- |
+| **Juego temprano** | Hacha de madera inicial | Árboles normales | Ventas activas rápidas para financiar las primeras mejoras |
+| **Juego medio** | Hachas raras y legendarias | Tocones de árboles | Optimización de densidad antes de comprar terreno |
+| **Juego tardío** | Hachas mágicas | Árboles gigantes | Expansión completa de la parcela con la máxima colocación de hachas |
+
+<Callout type="tip" title="Densidad sobre tamaño">
+No te apresures a comprar terreno nuevo si tu parcela actual tiene espacio vacío. Siempre es más rentable llenar tu parcela existente con hachas mejoradas antes de pagar por una expansión de terreno.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta paso a paso para la expansión de parcelas">
+
+Para construir una granja eficiente sin desperdiciar dinero valioso, debes seguir una ruta de desarrollo estructurada. Esto garantiza que siempre tengas suficiente liquidez para comprar hachas más fuertes tan pronto como se desbloqueen.
+
+<Steps>
+  <Step num="1" title="Establece el bucle de dinero">
+    Equipa tu Hacha de madera inicial y tala los árboles normales de tu parcela. Recoge la madera y véndela inmediatamente en el punto de venta para establecer tus ingresos básicos.
+  </Step>
+  <Step num="2" title="Mejora el poder del hacha activa">
+    Gasta tus primeras reservas de dinero en mejorar tu hacha principal. Un hacha activa más fuerte te permite talar árboles más rápido, acelerando tu generación de dinero.
+  </Step>
+  <Step num="3" title="Maximiza la densidad de la parcela actual">
+    Compra hachas adicionales y colócalas en tu parcela inicial. Sigue añadiendo hachas hasta que todos los espacios de tala de alta eficiencia disponibles en tu terreno inicial estén ocupados.
+  </Step>
+  <Step num="4" title="Compra la expansión de terreno">
+    Una vez que tu parcela inicial esté completamente llena y no puedas colocar más hachas de manera eficiente, gasta el dinero acumulado para comprar tu primera expansión de parcela.
+  </Step>
+  <Step num="5" title="Despliega diseños avanzados">
+    Utiliza el terreno recién abierto para establecer zonas de tala dedicadas para objetivos más difíciles, colocando hachas de alto nivel cerca de tocones y árboles gigantes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de progresión">
+Al mejorar tus hachas antes de expandir tu parcela, garantizas que las hachas recién colocadas en el terreno expandido sean altamente productivas desde el momento en que se despliegan.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Diseños óptimos de granja y emparejamiento de objetivos">
+
+Los diferentes objetivos del juego requieren diferentes niveles de poder de tala. Emparejar la configuración de hachas adecuada con el objetivo correcto en tu parcela expandida es crucial para mantener una alta tasa de producción.
+
+<CardGrid cols={3}>
+  <Card title="Configuración para árboles normales">
+    - **Durability**: Baja
+    - **Categoría de hacha**: Hachas de madera o raras
+    - **Prioridad de diseño**: Colocar cerca de la ruta de venta para ciclos rápidos de tala activa.
+  </Card>
+  <Card title="Configuración para tocones de árboles">
+    - **Durability**: Alta
+    - **Categoría de hacha**: Hachas raras o legendarias
+    - **Prioridad de diseño**: Agrupar 2 o 3 hachas mejoradas alrededor de un solo tocón para talarlo eficientemente.
+  </Card>
+  <Card title="Configuración para árboles gigantes">
+    - **Durability**: Muy alta
+    - **Categoría de hacha**: Hachas mágicas
+    - **Prioridad de diseño**: Rodear con el máximo de hachas mejoradas en las parcelas exteriores totalmente expandidas.
+  </Card>
+</CardGrid>
+
+| Tipo de objetivo | Durabilidad | Rendimiento de madera | Configuración recomendada | Mejor etapa de progresión |
+|--- |--- |--- |--- |--- |
+| **Árbol normal** | Baja | Estándar | Hacha de madera / Mejoras iniciales | Juego temprano |
+| **Tocón de árbol** | Alta | Mayor valor | Hacha mejorada fuerte / Legendaria | Juego medio a tardío |
+| **Árbol gigante** | Muy alta | Objetivo grande | Múltiples hachas mágicas | Juego tardío |
+
+<Callout type="warning" title="Evita cuellos de botella">
+Asegúrate de que el diseño de tu granja mantenga los caminos despejados. Bloquear la ruta entre tus zonas de tala activa y el punto de venta ralentizará tu conversión manual de dinero.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizar las ganancias sin conexión con la expansión de parcelas">
+
+Una de las características más potentes de **Mi granja de madera** es que las hachas que has colocado siguen talando madera mientras estás desconectado. La expansión de parcelas multiplica directamente tu potencial de ingresos pasivos al aumentar el número total de hachas que trabajan para ti durante tu ausencia.
+
+| Paso sin conexión | Acción | Propósito |
+|--- |--- |--- |
+| **Antes de cerrar sesión** | Mejorar hachas y llenar todos los espacios de la parcela | Maximizar la tasa de producción pasiva |
+| **Al volver** | Reclamar la madera sin conexión y venderla inmediatamente | Convertir los recursos acumulados en dinero |
+| **Post-venta** | Reinvertir en hachas o expansión de terreno | Mantener el bucle de crecimiento acumulativo |
+
+<Callout type="info" title="Fórmula de ganancias sin conexión">
+La madera obtenida sin conexión se calcula como la diferencia entre tu total de madera al volver y tu total de madera antes de irte. Para estimar el valor en dinero, multiplica la madera obtenida sin conexión por tu rendimiento de venta actual por unidad de madera.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para la expansión de parcelas">
+
+Antes de gastar el dinero que tanto te ha costado ganar en una nueva expansión de terreno, repasa esta rápida lista de verificación para asegurarte de que es el movimiento financiero correcto.
+
+<Checklist
+  id="expansion-readiness"
+  title="Lista de verificación de preparación para la expansión:"
+  items={[
+    "Todos los espacios de la parcela actual están ocupados por hachas activas.",
+    "Tu hacha principal está mejorada para adaptarse a tus objetivos actuales.",
+    "Tienes suficiente dinero excedente para comprar tanto el terreno como al menos un hacha nueva.",
+    "Tus caminos actuales hacia el punto de venta están totalmente optimizados.",
+    "Estás listo para hacer la transición a objetivos de mayor durabilidad como los tocones de árboles."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Cómo me ayuda la expansión de parcelas en Mi granja de madera a ganar más dinero?",
+    answer: "Expandir tu parcela aumenta el espacio físico disponible en tu granja. Esto te permite colocar más hachas, lo que incrementa directamente tanto tu velocidad de tala activa como tu producción pasiva de madera sin conexión."
+  },
+  {
+    question: "¿Debería comprar expansiones de terreno o mejorar mis hachas primero?",
+    answer: "Siempre debes priorizar mejorar tus hachas primero. Las hachas mejoradas producen más madera por segundo. Solo compra expansiones de terreno cuando tu parcela actual esté completamente llena de hachas muy mejoradas y necesites más espacio para colocar nuevas."
+  },
+  {
+    question: "¿Mis hachas talan madera mientras estoy desconectado?",
+    answer: "Sí, las hachas que has colocado siguen talando madera mientras estás desconectado. Para maximizar esto, asegúrate de llenar todos los espacios disponibles en tu parcela expandida con tus mejores hachas antes de cerrar sesión."
+  },
+  {
+    question: "¿Cuál es el mejor diseño para talar árboles gigantes?",
+    answer: "Los árboles gigantes tienen una durabilidad muy alta. El mejor diseño es expandir tu parcela alrededor de la zona del árbol gigante y colocar múltiples hachas legendarias o mágicas de alto nivel muy cerca para que puedan talar el objetivo simultáneamente."
+  }
+]} />
+
+</Section>

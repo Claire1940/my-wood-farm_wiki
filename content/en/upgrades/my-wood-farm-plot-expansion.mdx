@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "My Wood Farm Plot Expansion: Costs, Layouts & Setup Guide",
+  description: "Master my wood farm plot expansion with our guide. Learn land costs, the best progression order, optimal axe layouts, and cash farming tricks.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b5a32/fff?text=Plot+Expansion+Guide",
+  date: "2026-07-16",
+  author: "my wood farm Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Plot Expansion**: Expand your land in **my wood farm** to place more axes and boost passive wood production.
+- **Progression Loop**: Chop trees, sell wood, upgrade your axes, and expand your plot when space runs out.
+- **Offline Earnings**: Your placed axes continue farming wood while you are offline, making layout efficiency highly important.
+- **Optimal Strategy**: Maximize your current plot density before spending cash on expensive new land expansions.
+</Callout>
+
+<Section icon={Map} title="My Wood Farm Plot Expansion Basics">
+
+Plot expansion is a fundamental mechanic in **my wood farm** that directly impacts your wood production rate and overall cash flow. While upgrading your axes increases individual chopping power, expanding your plot allows you to place more axes simultaneously. This dual progression system is key to transitioning from active early-game chopping to a highly profitable passive farming setup.
+
+| Expansion Phase | Primary Focus | Main Target | Strategy |
+|--- |--- |--- |--- |
+| **Early Game** | Starter Wooden Axe | Regular Trees | Quick active sales to fund first upgrades |
+| **Mid Game** | Rare & Legendary Axes | Tree Stumps | Density optimization before land purchase |
+| **Late Game** | Magical Axes | Giant Trees | Full plot expansion with maximum axe placement |
+
+<Callout type="tip" title="Density Over Size">
+Do not rush to buy new land if your current plot has empty space. It is always more cost-effective to fill your existing plot with upgraded axes before paying for land expansion.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Plot Expansion Route">
+
+To build an efficient farm without wasting valuable cash, you should follow a structured development route. This ensures you always have enough liquidity to purchase stronger axes as soon as they are unlocked.
+
+<Steps>
+  <Step num="1" title="Establish the Cash Loop">
+    Equip your starting Wooden Axe and chop the regular trees on your plot. Collect the wood and sell it immediately at the sell point to establish your baseline income.
+  </Step>
+  <Step num="2" title="Upgrade Active Axe Power">
+    Spend your first few cash reserves on upgrading your primary axe. A stronger active axe allows you to clear trees faster, accelerating your cash generation.
+  </Step>
+  <Step num="3" title="Maximize Current Plot Density">
+    Purchase additional axes and place them on your starting plot. Keep adding axes until all available high-efficiency farming slots on your initial land are occupied.
+  </Step>
+  <Step num="4" title="Purchase Land Expansion">
+    Once your starting plot is completely full and you cannot place more axes efficiently, spend your accumulated cash to purchase your first plot expansion.
+  </Step>
+  <Step num="5" title="Deploy Advanced Layouts">
+    Utilize the newly opened land to set up dedicated chopping zones for tougher targets, placing high-tier axes near stumps and giant trees.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progression Tip">
+By upgrading your axes before expanding your plot, you ensure that your newly placed axes on the expanded land are highly productive from the moment they are deployed.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimal Farm Layouts and Target Matching">
+
+Different targets in the game require different levels of chopping power. Matching the right axe setup with the right target on your expanded plot is crucial for maintaining a high production rate.
+
+<CardGrid cols={3}>
+  <Card title="Regular Tree Setup">
+    - **Durability**: Low
+    - **Axe Category**: Wooden or Rare Axes
+    - **Layout Priority**: Place close to the selling route for rapid active farming cycles.
+  </Card>
+  <Card title="Tree Stump Setup">
+    - **Durability**: High
+    - **Axe Category**: Rare or Legendary Axes
+    - **Layout Priority**: Group 2-3 upgraded axes around a single stump to clear it efficiently.
+  </Card>
+  <Card title="Giant Tree Setup">
+    - **Durability**: Very High
+    - **Axe Category**: Magical Axes
+    - **Layout Priority**: Surround with maximum upgraded axes on fully expanded outer plots.
+  </Card>
+</CardGrid>
+
+| Target Type | Durability | Wood Yield | Recommended Setup | Best Progression Stage |
+|--- |--- |--- |--- |--- |
+| **Regular Tree** | Low | Standard | Wooden Axe / Early Upgrades | Early Game |
+| **Tree Stump** | High | Higher-Value | Strong Upgraded / Legendary Axe | Mid to Late Game |
+| **Giant Tree** | Very High | Large Target | Multiple Magical Axes | Late Game |
+
+<Callout type="warning" title="Avoid Bottlenecks">
+Ensure your farm layout keeps walking paths clear. Blocking the route between your active chopping zones and the selling point will slow down your manual cash conversion.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizing Offline Earnings with Plot Expansion">
+
+One of the most powerful features of **my wood farm** is that your placed axes continue to farm wood while you are offline. Plot expansion directly multiplies your passive income potential by increasing the total number of axes working for you during your absence.
+
+| Offline Step | Action | Purpose |
+|--- |--- |--- |
+| **Before Logout** | Upgrade axes and fill all plot slots | Maximize passive production rate |
+| **Upon Return** | Claim offline wood and sell immediately | Convert accumulated resources to cash |
+| **Post-Sale** | Reinvest in axes or land expansion | Keep the growth loop compounding |
+
+<Callout type="info" title="Offline Earnings Formula">
+Your offline wood gained is calculated as the difference between your wood total upon returning and your wood total before leaving. To estimate the cash value, multiply the offline wood gained by your current selling return per unit of wood.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Plot Expansion Checklist">
+
+Before you spend your hard-earned cash on a new land expansion, run through this quick checklist to ensure it is the right financial move.
+
+<Checklist
+  id="expansion-readiness"
+  title="Expansion Readiness Checklist:"
+  items={[
+    "All current plot slots are occupied by active axes.",
+    "Your primary axe is upgraded to match your current targets.",
+    "You have enough surplus cash to buy both the land and at least one new axe.",
+    "Your current walking paths to the selling point are fully optimized.",
+    "You are ready to transition to higher durability targets like Tree Stumps."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How does my wood farm plot expansion help me earn more cash?",
+    answer: "Expanding your plot increases the physical space available on your farm. This allows you to place more axes, which directly increases both your active chopping speed and your passive offline wood production."
+  },
+  {
+    question: "Should I buy land expansions or upgrade my axes first?",
+    answer: "You should always prioritize upgrading your axes first. Upgraded axes produce more wood per second. Only buy land expansions when your current plot is completely full of highly upgraded axes and you need more space to place new ones."
+  },
+  {
+    question: "Do my axes farm wood while I am offline?",
+    answer: "Yes, your placed axes continue to farm wood while you are offline. To maximize this, make sure to fill all available slots on your expanded plot with your best axes before logging out."
+  },
+  {
+    question: "What is the best layout for clearing Giant Trees?",
+    answer: "Giant Trees have very high durability. The best layout is to expand your plot around the Giant Tree zone and place multiple high-tier legendary or magical axes in close proximity so they can chop the target simultaneously."
+  }
+]} />
+
+</Section>
